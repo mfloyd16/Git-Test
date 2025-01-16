@@ -1,10 +1,34 @@
+/**
+ * @file main.cpp
+ * @author Michael Floyd
+ * @date 2025-01-16
+ * @brief Git Test
+ * 
+ * Figuring out how emacs and git work together
+ */
+
 
 #include <iostream>
 
 using namespace std;
 
+/**
+ * adds together numbers from 1 to n
+ * 
+ * @param int n to hold a number
+ * @return int sum which is all the numbers added to n
+ *
+ */
 int sum (int n);
 
+/**
+ * multiplys together numbers from 1 to n
+ *
+ * @param int n to hold a number
+ * @return int product which is all the numbers mutiplied 
+ *   together
+ *
+ */
 int product (int n);
 
 int main() {
